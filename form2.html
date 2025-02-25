@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./basic.html" validate>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Name">
+
+        <!-- add only number-->
+        <label for="num" >Phone Number</label>
+        <input type="number " id =" num " placeholder ="Phone Number">
+
+        <br><br>
+
+        <!--tag add of birth-->
+        <label for="date" >Date Of Birth</label>
+        <input type="date " id ="date" placeholder ="date of birth">
+
+      <!--Email-->
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail">
+        <br>
+        
+        <!--Password-->
+        <label for="pass">password<span style="color: red; font-size: 15px;">*</span></label>
+        <input type="password" id="pass" required placeholder="password">
+      
+      
+        <!--mail id-->
+        <label for="mail">Email</label>
+        <input type="email" id="mail" placeholder="Please Enter your Email">
+
+        <br><br>
+
+        <!--Radio Buttton-->
+        <label >Gender:</label>
+            <input type="radio" name="Gender" id="male" value="Male">
+                <label for="male">Male</label>
+            <input type="radio" name="Gender" id="female" value="Female">
+                <label for="female">Female</label>
+            <input type="radio" name="Gender" id="others" value="Others">
+                <label for="others">Others</label>
+            
+                <br>
+                <br>
+        <!--check box-->
+        <label >Language:</label>
+        <input type="checkbox" name="Language" id="eng" value="English">
+        <label for="eng">English</label>
+        <input type="checkbox" name="Language" id="hin" value="Hindi">
+        <label for="hin">Hindi</label>
+        <input type="checkbox" name="marathi" id="mar" value="marathi">
+        <label for="mar">Marathi</label>
+
+            <br><br>
+
+        <!-- Choose one-->
+        <label for="count">Country:</label>
+            <select  id="count">
+                <option slected disabled> Please select a country</option>
+                <option value="India"> India</option>
+                <option value="Australia"> Australia</option>
+                <option value="Nepal"> Nepal</option>
+                <option value="Egypt"> Egypt</option>
+                <option value="USA"> USA</option>
+            </select>
+
+            <br><br>
+
+            <input type="file" multiple>
+            
+            <input type="url" placeholder="Enter the url">
+
+            <button>Submit-btn</button>
+
+            <input type="submit" value="submit-inp">
+
+            <input type="reset" value="reset">
+
+
+    </form>
+</body>
+</html>

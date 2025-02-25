@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table,tr,td,th{
+            border: 2px solid rgba(0, 0,0, 0.5);
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!--Merging cell's-->
+
+    <!--
+
+    rowspan -> Merging of rows
+    colspan -> Merging of columns
+
+    -->
+    <h1>Rowspan</h1>
+
+    <!-- Table Start-->
+
+    <table style="width: 50%;">
+        <!--Table Heading-->
+        <tr>
+            <th>
+                Student Name
+            </th>
+            <th>
+                Domain-Name
+            </th>
+            <th>
+                Fees
+            </th>
+        </tr>
+        <!--Table Data 1 row-->
+        <tr>
+            <td>
+                Omkar
+            </td>
+            <td>
+                Java
+            </td>
+            <td>
+                120000
+            </td>
+            
+        </tr>
+        <!--Second Data 2 Row-->
+        <tr>
+            <td rowspan="2">
+                rutuja
+            </td>
+            <td rowspan="3">
+                .Net
+            </td>
+
+            <td>
+                120000
+            </td>
+        </tr>
+
+        <!--Third Data 3 row-->
+        <tr>
+            <td >
+                Swapna
+            </td>
+            <td>
+                .Net
+            </td>
+            <td>
+                120000
+            </td>
+        </tr>
+
+           <!--Third Data 4 row-->
+           <tr>
+            <td >
+                Rohan
+            </td>
+            <td colspan="3">
+                .Net
+            </td>
+            <td>
+                120000
+            </td>
+        </tr>
+
+
+    </table>
+
+</body>
+</html>

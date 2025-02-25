@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selectors</h1>
+
+    <!--Element Selector-->
+
+    <style>
+        h2{
+            color: red;
+        }
+    </style>
+
+    <h2>Element Selector</h2>
+
+    <!-- ID selector-->
+
+    <style>
+        #name{
+            color: darkgoldenrod;
+        }
+
+    </style>
+    <h5 id="name">ID Selector</h5>
+
+    <!--
+        -id is used for unique identification only.
+        -No other tag should have the same id name.
+        Id is represented in CSS  selector with a '#'
+    -->
+    <!--Class Selector-->
+
+    <style>
+        .name{
+            color: darkgoldenrod;
+        }
+    </style>
+
+    <h4 class="name">Class Selector</h4>
+    <!-- <div class="name">We are understanding class selector</div>-->
+
+    <!--
+        -class is used for common identification.
+        -other tags can have the same class also.
+        -Class is represnted in CSS selector with a '.'
+    -->
+
+    <!--Universal Selector-->
+    <style>
+        *{
+            font-size: 25px;
+            font-weight: bolder;
+            color: brown;
+
+        }
+    </style>
+    <p>Universal Selector</p>
+    <!--
+        -Universal selector is used only once in a web page.
+        -Universal selector is represented in CSS with a '*' 
+    -->
+    
+    <!--Multiple/ Group Selector -->
+    <style>
+        #name, #multi, h2, .name{
+            font-family: 'lucida sans', 'lucida sans Regular', 'Lucida Grande',
+             'Lucida sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+        }
+    </style>
+    <h5 id="multi">Multiple/ Group Selector</h5>
+    <!--
+        -It is used to add multiple selectors to have a common styling
+        -Each selectors are separated by a COMMA ',' 
+    -->
+</body>
+</html>
